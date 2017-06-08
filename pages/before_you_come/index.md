@@ -3,6 +3,7 @@ layout: post
 title: Before you come
 description: null
 image: ../assets/images/luggage.jpg
+permalink: before_you_come/index.html
 ---
 
 # 6 Things you need to know about before coming to Novosibirsk:

@@ -3,6 +3,7 @@ layout: page
 title: Dining
 description: null
 image: assets/images/food.jpg
+permalink: dining/index.html
 ---
 
 # Dining

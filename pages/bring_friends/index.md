@@ -3,6 +3,7 @@ layout: page
 title: Night Life
 description: null
 image: ../assets/images/night_life.jpg
+permalink: bring_friends/index.html
 ---
 
 <div class="row">

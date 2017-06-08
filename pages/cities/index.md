@@ -3,6 +3,7 @@ layout: page
 title: Nearby Cities
 description: null
 image: ../assets/images/train.jpg
+permalink: cities/index.html
 ---
 # What you need to know to travel nearby cities:
 ## Trains run on Moscow time! So plan to leave and arrive at Moscow time, not local times.
