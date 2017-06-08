@@ -1,0 +1,31 @@
+@media (max-width:1290px) {
+  body {
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+  }
+}
+@media (max-width 500px) {
+  body {
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+}
+
+#banner h1 {
+  font-size: 5.34em;
+}
+#banner > .inner .content p {
+  text-transform: none;
+  font-size: 27px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+#banner:after {
+  background-color: #432e24;
+  opacity: 0.55;
+}
+@media screen and (max-width: 1280px){
+  .row {
+      margin: 0 1.5em 0em 1.5em;
+  }
+}

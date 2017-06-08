@@ -1,10 +1,10 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: 'Visit Novosibirsk'
 description: null
 image: null
 author: null
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+Whether you're coming during summer, winter, for a month or a day, Novosibirsk is worth visiting. In the heart of Russian culture, you can visit it's renowned theater, opera, ballet, and museums. With it's beautiful landscape, there are many outdoor pursuits for every season. Traditional Soviet restaurants and buildings line the streets and at the same time is mixed with beautiful modern architecture. As it's Russia's fastest growing city, Novosibirsk is constantly building new coffee shops, lounges, and activities for tourists and locals alike.
