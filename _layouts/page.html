@@ -11,43 +11,48 @@
 <body>
 
     {% include header.html %}
-      {% for item in page.items %}
-        <div class="row">
-          <h1>{{item.title}}</h1>
-        </div>
-        <div class="row">
-          {% if item.image_left %}
-            <div class="6u 12u$(small)">
-              <img class="image fit" src={{item.image_url}} />
-            </div>
-            <div class="6u$ 12u$(small)">
-              <div class="box">
-                <p><strong>Distance:</strong> {{item.distance}}</p>
-
-                <p><strong>Price:</strong> {{item.price}}</p>
-
-                <p>{{item.description}}</p>
-
-                <p><a href={{item.map_url}}>View in 2GIS</a></p>
+      {% for subsection in page.subsection %}
+        {% if subsection.title %}
+          <h2>{{subsection.title}}</h2>
+        {% endif %}
+        {% for item in subsection.items %}
+          <div class="row">
+            <h1>{{item.title}}</h1>
+          </div>
+          <div class="row">
+            {% if item.image_left %}
+              <div class="6u 12u$(small)">
+                <img class="image fit" src={{item.image_url}} />
               </div>
-            </div>
-          {% else %}
-            <div class="6u$ 12u$(small)">
-              <div class="box">
-                <p><strong>Distance:</strong> {{item.distance}}</p>
+              <div class="6u$ 12u$(small)">
+                <div class="box">
+                  <p><strong>Distance:</strong> {{item.distance}}</p>
 
-                <p><strong>Price:</strong> {{item.price}}</p>
+                  <p><strong>Price:</strong> {{item.price}}</p>
 
-                <p>{{item.description}}</p>
+                  <p>{{item.description}}</p>
 
-                <p><a href={{item.map_url}}>View in 2GIS</a></p>
+                  <p><a href={{item.map_url}}>View in 2GIS</a></p>
+                </div>
               </div>
-            </div>
-            <div class="6u 12u$(small)">
-              <img class="image fit" src={{item.image_url}} />
-            </div>
-          {% endif %}
-        </div>
+            {% else %}
+              <div class="6u$ 12u$(small)">
+                <div class="box">
+                  <p><strong>Distance:</strong> {{item.distance}}</p>
+
+                  <p><strong>Price:</strong> {{item.price}}</p>
+
+                  <p>{{item.description}}</p>
+
+                  <p><a href={{item.map_url}}>View in 2GIS</a></p>
+                </div>
+              </div>
+              <div class="6u 12u$(small)">
+                <img class="image fit" src={{item.image_url}} />
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
       {% endfor %}
     {% include footer.html %}
 
